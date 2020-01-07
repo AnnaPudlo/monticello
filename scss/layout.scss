@@ -1,6 +1,6 @@
 // variables
 $containerWidth: 1170px;
-$gap: 15px;
+$gap: 5px;
 $colCount: 12;
 $colWidth: 100% / $colCount;
 
@@ -25,7 +25,7 @@ $colWidth: 100% / $colCount;
 }
 
 .ba-row+.ba-row {
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 [class^='ba-col'] {
