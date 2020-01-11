@@ -77,7 +77,7 @@ img {
     padding: 0;
     margin: 0;
 
-    &__item::before {
+    &__link::before {
         content: '';
         display: inline-block;
         border: 1px solid #fff;
@@ -87,8 +87,8 @@ img {
         margin-right: 14px;
     }
 
-    &__item:hover::before,
-    &__item:active::before {
+    &__link:hover::before,
+    &__link:active::before {
         background-color: #fff;
     }
 
