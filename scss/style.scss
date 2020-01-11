@@ -283,6 +283,8 @@ img {
     &__address {
         display: flex;
         align-items: center;
+        text-decoration: none;
+        color: inherit;
 
         svg {
             width: 16px;
@@ -292,6 +294,10 @@ img {
 
         p {
             font-style: italic;
+        }
+
+        :hover {
+            transform: scale(0.95);
         }
     }
 }

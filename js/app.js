@@ -25,6 +25,10 @@ $(document).ready(function () {
 
 })
 
+$(".ba-project__address, .ba-contacts__address").click(function(e){
+    e.preventDefault();
+})
+
 $(".ba-menu__link").click(function () {
     var elementClick = $(this).attr("href");
     var destination = $(elementClick).offset().top;

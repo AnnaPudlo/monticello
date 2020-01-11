@@ -212,13 +212,17 @@ img {
       line-height: 1.5rem; }
   .ba-project__address {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    text-decoration: none;
+    color: inherit; }
     .ba-project__address svg {
       width: 16px;
       height: 16px;
       margin-right: 0.5rem; }
     .ba-project__address p {
       font-style: italic; }
+    .ba-project__address :hover {
+      transform: scale(0.95); }
 
 .ba-news {
   height: 1035px;
